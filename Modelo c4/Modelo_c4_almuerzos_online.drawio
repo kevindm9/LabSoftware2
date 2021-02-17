@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T04:34:56.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="6YikXKckhdyUdEEcv_Z6" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-17T04:37:42.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="TUGqG2fBc-dLTD_L9r4z" version="14.1.1" type="github">
   <diagram id="fSk3rG9wc4xmKTzRk4dx" name="Page-1">
-    <mxGraphModel dx="766" dy="1479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1307" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
         </object>
         <object placeholders="1" c4Name="Sistema de Pedidos" c4Type="Software System" c4Description="Permite a los clientes ver los diferentes menús de comida por restaurante de diferentes ciudades, también podrá reservar los almuerzos que estén disponibles y registrarse para seleccionar el medio de pago." label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="hBLDZgY7xa-e1h6gSyP5-2">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1168BD;fontColor=#ffffff;align=center;arcSize=0;strokeColor=#1168BD;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="85" y="-330" width="240" height="160" as="geometry" />
+            <mxGeometry x="80" y="-320" width="240" height="160" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="Usa" c4Description="Ver almuerzos disponibles, &#xa;realizar pagos en linea" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="hBLDZgY7xa-e1h6gSyP5-3">
@@ -25,27 +25,28 @@
         </object>
         <object placeholders="1" c4Name="Sistema VerificaPago" c4Type="Software System" c4Description="Verifica que el medio de pago sea correcto, para poder hacer la reserva o compra del almuerzo" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="hBLDZgY7xa-e1h6gSyP5-4">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#8A8A8A;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="470" y="-330" width="160" height="110.00000000000001" as="geometry" />
+            <mxGeometry x="530" y="-300" width="160" height="110.00000000000001" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="Tiene" c4Description="Obtiene información de &#xa;la cuenta por la cual &#xa;se realiza los pagos" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="hBLDZgY7xa-e1h6gSyP5-5">
-          <mxCell style="edgeStyle=none;rounded=0;html=1;entryX=-0.001;entryY=0.668;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="hBLDZgY7xa-e1h6gSyP5-4">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};entryX=-0.011;entryY=0.456;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="hBLDZgY7xa-e1h6gSyP5-4">
             <mxGeometry width="160" relative="1" as="geometry">
-              <mxPoint x="325" y="-257" as="sourcePoint" />
-              <mxPoint x="493.5" y="-260" as="targetPoint" />
+              <mxPoint x="325" y="-250" as="sourcePoint" />
+              <mxPoint x="530" y="-257" as="targetPoint" />
+              <Array as="points" />
               <mxPoint as="offset" />
             </mxGeometry>
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Sistema de Gestión de los Almuerzos Online" c4Type="Software System" c4Description="Permite que el administrador de cada restaurante(s) pueda gestionar el menú de los almuerzos, datos del restaurante y la reservación y compra de los almuerzos online." label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="hBLDZgY7xa-e1h6gSyP5-6">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1168BD;fontColor=#ffffff;align=center;arcSize=0;strokeColor=#1168BD;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="920" y="-370" width="240" height="170" as="geometry" />
+            <mxGeometry x="920" y="-320" width="240" height="170" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="Contiene" c4Description="Obtiene información y &#xa;verificación del medio &#xa;de pago para que se pueda &#xa;completar la reserva &#xa;y la compra." label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="hBLDZgY7xa-e1h6gSyP5-7">
-          <mxCell style="edgeStyle=none;rounded=0;html=1;entryX=0.999;entryY=0.448;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.004;exitY=0.545;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hBLDZgY7xa-e1h6gSyP5-6" target="hBLDZgY7xa-e1h6gSyP5-4">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;entryX=0.999;entryY=0.448;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="hBLDZgY7xa-e1h6gSyP5-4">
             <mxGeometry x="0.1239" width="160" relative="1" as="geometry">
-              <mxPoint x="790" y="-281" as="sourcePoint" />
+              <mxPoint x="918" y="-251" as="sourcePoint" />
               <mxPoint x="840" y="-300" as="targetPoint" />
               <mxPoint as="offset" />
             </mxGeometry>
