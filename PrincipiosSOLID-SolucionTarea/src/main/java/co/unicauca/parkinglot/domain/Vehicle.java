@@ -14,7 +14,11 @@ public class Vehicle {
     private String plate;
     
     private TypeEnum type;
-
+    /**
+     * Objeto tipo vehiculo
+     * @param plate datos vehiculo
+     * @param type 
+     */ 
     public Vehicle(String plate, TypeEnum type) {
         this.plate = plate;
         this.type = type;
@@ -40,6 +44,9 @@ public class Vehicle {
     }
 
     @Override
+    /**
+     * Cadena de informacion
+     */
     public String toString() {
         return "Vehicle{" + "plate=" + plate + ", type=" + type + '}';
     }

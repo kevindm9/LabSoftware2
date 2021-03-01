@@ -10,13 +10,13 @@ import java.util.Map;
 
 /**
  *
- * @author Kevith bastidas
+ * @author Kevith bastidas,yeison Ordoñes,Kevin Morales
  */
 public class ParkingCostFactory {
     private Map<TypeEnum,IParkingCost> costDictionary;
     
     //Singleton
-    private static ParkingCostFactory instance;
+       private static ParkingCostFactory instance;
 
     private ParkingCostFactory() {
         costDictionary = new EnumMap<>(TypeEnum.class);
@@ -38,7 +38,11 @@ public class ParkingCostFactory {
         }
         return instance;
     }
-    
+    /**
+     * 
+     * @param type
+     * @return 
+     */
     public IParkingCost getRepository(TypeEnum type){
         IParkingCost result = null;
         if (costDictionary.containsKey(type)) {

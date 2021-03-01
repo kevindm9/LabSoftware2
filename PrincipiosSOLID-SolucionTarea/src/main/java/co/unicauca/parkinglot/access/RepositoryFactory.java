@@ -7,7 +7,7 @@ package co.unicauca.parkinglot.access;
 
 /**
  *
- * @author kevith Bastidas
+ * @author kevith Bastidas,yeison Ordoñes,Kevin Morales
  */
 public class RepositoryFactory {
     

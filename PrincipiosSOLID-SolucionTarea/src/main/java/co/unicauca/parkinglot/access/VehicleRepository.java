@@ -21,7 +21,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author kevith Bastidas
+ * @author kevith Bastidas,yeison Ordoñes,Kevin Morales
  */
 public class VehicleRepository implements IVehicleRepository{
      private Connection conn;
@@ -31,6 +31,9 @@ public class VehicleRepository implements IVehicleRepository{
     }
 
     @Override
+    /**
+     * Guarda vehiculo
+     */
     public boolean save(Vehicle newVehicule) {
 
         try {
@@ -55,7 +58,9 @@ public class VehicleRepository implements IVehicleRepository{
         }
         return false;
     }
-
+ /**
+  * Elimina vehiculo 
+  */
     public boolean removeVehicle(){
         try {
             this.connect();
@@ -126,7 +131,9 @@ public class VehicleRepository implements IVehicleRepository{
             Logger.getLogger(Service.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
+   /**
+    *  cierra el sql
+    */
     public void disconnect() {
         try {
             if (conn != null) {

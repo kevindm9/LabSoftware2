@@ -17,6 +17,10 @@ import java.util.List;
 public class Service {
     IVehicleRepository repository;
     
+    /**
+     * 
+     * @param repository 
+     */
     public Service(IVehicleRepository repository) {
         this.repository = repository;
     }
@@ -29,13 +33,20 @@ public class Service {
         IParkingCost cost = ParkingCostFactory.getInstance().getRepository(veh.getType());
         return cost.calculateCost(veh, input, output);
     }
-    
+    /**
+     * Guarda un vehivulo
+     * @param newVehiculo
+     * @return repoitorio vehiculos
+     */
     public boolean saveVehicle(Vehicle newVehiculo){
         if (!newVehiculo.getPlate().isEmpty()) 
             return repository.save(newVehiculo);       
         return false;
     }
-    
+    /**
+     * Lista vehiculo
+     * @return repositorio vehiculo
+     */
     public List<Vehicle> listVehicles(){
         return repository.list();
     }  

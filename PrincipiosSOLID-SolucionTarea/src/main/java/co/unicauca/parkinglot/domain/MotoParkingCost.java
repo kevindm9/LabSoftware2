@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 import co.unicauca.parkinglot.infra.Utilities;
 /**
  *
- * @author kevith Bastidas
+ * @author kevith Bastidas,yeison Ordoñes,Kevin Morales
  */
 public class MotoParkingCost implements IParkingCost{
 
@@ -17,6 +17,12 @@ public class MotoParkingCost implements IParkingCost{
     }
     
     @Override
+      
+    /**
+     * Calcula los costos de la tarifa
+     * @param Vehicle
+     * @return result
+     */
     public long calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
         int vDife[] = Utilities.gerDiferencia(input, output);
         int horas = vDife[0]*24+vDife[1];

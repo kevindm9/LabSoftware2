@@ -10,11 +10,17 @@ import java.time.LocalDateTime;
 
 /**
  *
- * @author kevith bastidas
+ * @author kevith bastidas,yeison Ordoñes,Kevin Morales
  */
 public class TruckParkingCost implements IParkingCost{
 
     @Override
+        /**
+     * Calcula los costos de la tarifa
+     * @param Vehicle
+     * @return result
+     */
+    
     public long calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
         int vDife[] = Utilities.gerDiferencia(input, output);
         int horas = vDife[0]*24+vDife[1];

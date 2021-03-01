@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  *
- * @author kevith Bastidas
+ * @author kevith Bastidas,yeison Ordoñes,Kevin Morales
  */
 public interface IVehicleRepository {
     boolean save(Vehicle newVehiculo);

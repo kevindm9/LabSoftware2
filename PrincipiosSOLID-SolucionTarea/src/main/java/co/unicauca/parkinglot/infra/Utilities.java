@@ -13,6 +13,11 @@ import java.util.Date;
  * @author kevith Bastidas
  */
 public class Utilities {
+    /**
+     * Redondea valor coste
+     * @param valor
+     * @return coste
+     */
     public static long redondeo(long valor){
         if (valor%100!=0) {
             long aux1 = valor%1000 - valor%100;
@@ -22,6 +27,12 @@ public class Utilities {
         }
         return valor;
     }
+    /**
+     *  Calcula el valor a devolver
+     * @param entrada_hora
+     * @param salida_hora
+     * @return devuelta_coste
+     */
     public static int[] gerDiferencia(LocalDateTime input, LocalDateTime output){
         int dias=0;
         int horas=0;

@@ -8,8 +8,8 @@ package co.unicauca.parkinglot.domain;
 import java.time.LocalDateTime;
 
 /**
- *
- * @author kevith Bastidas
+ *  Interfaz CostoEstacionamiento 
+ * @author Andres
  */
 public interface IParkingCost {
 
