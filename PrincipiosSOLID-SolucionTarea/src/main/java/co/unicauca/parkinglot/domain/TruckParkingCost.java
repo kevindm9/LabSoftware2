@@ -18,6 +18,8 @@ public class TruckParkingCost implements IParkingCost{
         /**
      * Calcula los costos de la tarifa
      * @param Vehicle
+     * @param entrada_hora
+     * @param salida_hora
      * @return result
      */
     

@@ -18,6 +18,8 @@ public class CarParkingCost implements IParkingCost{
     /**
      * Calcula los costos de la tarifa
      * @param Vehicle
+     * @param entrada_hora
+     * @param salida_hora
      * @return result
      */
     public long  calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
